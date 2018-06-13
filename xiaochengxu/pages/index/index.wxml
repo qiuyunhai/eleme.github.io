@@ -1,0 +1,42 @@
+<!--index.wxml-->
+<view class="container">
+  <view class='header clear'>
+    <view class='left'>
+      <view>
+        <text class="headerTilte">湖南新时代防伪信息科技</text>
+      </view> 
+      <view class='headerbat'>
+        <text>公司企业·企业/软件</text>
+      </view>
+    </view>
+    <view class='right'>
+      <image class='img' src="../img/log.png"></image>
+    </view>
+  </view>
+  <view class='line'></view>
+  <view class='content'>
+    <view class='location' bindtap='toLocation'>
+      <text class='iconl iconfont icon-dingwei'></text> <text>高科汽配园智尚科技大厦8楼</text><text class='iconr iconfont icon-youjiantou'></text>
+    </view>
+    <view class='time'>
+      <text class='iconl iconfont icon-shijianzhongbiao2'></text> <text>9:00-17:00</text>
+    </view>
+    <view class='tel' bindtap='totel'>
+      <text class='iconl iconfont icon-dianhua'></text> <text>18970871780</text><text class='iconr iconfont icon-youjiantou'></text>
+    </view>
+    <view class='vidio'>
+      <text class='iconl iconfont icon-shipin'></text> <text>公司视频</text>
+    </view>
+    <view>
+       <video id="myVideo" src="http://wxsnsdy.tc.qq.com/105/20210/snsdyvideodownload?filekey=30280201010421301f0201690402534804102ca905ce620b1241b726bc41dcff44e00204012882540400&bizid=1023&hy=SH&fileparam=302c020101042530230204136ffd93020457e3c4ff02024ef202031e8d7f02030f42400204045a320a0201000400" controls></video>
+    </view>
+    <view class='images'>
+      <text class='iconl iconfont icon-tupian'></text> <text>公司图片</text>
+      <view class='imgs'>
+        <image src='https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1523512325861&di=f78885db17dd55fd709023e76522610a&imgtype=0&src=http%3A%2F%2Fimg.sc115.com%2Fuploads1%2Fsc%2Fjpgs%2F1511%2Fapic24063_sc115.com.jpg' bindtap='previewImage' data-src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1523512325861&di=f78885db17dd55fd709023e76522610a&imgtype=0&src=http%3A%2F%2Fimg.sc115.com%2Fuploads1%2Fsc%2Fjpgs%2F1511%2Fapic24063_sc115.com.jpg"></image>
+        <image src='https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1523512376991&di=2f1336b60ae31195bf90ea9c970d28e0&imgtype=0&src=http%3A%2F%2Fpic2016.ytqmx.com%3A82%2F2017%2F0313%2F25%2F2.jpg%2521960.jpg' bindtap='previewImage' data-src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1523512376991&di=2f1336b60ae31195bf90ea9c970d28e0&imgtype=0&src=http%3A%2F%2Fpic2016.ytqmx.com%3A82%2F2017%2F0313%2F25%2F2.jpg%2521960.jpg"></image>
+        <image id='imgs3' src='https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1523513078466&di=6c3667db4e80f3820f9b4e13468d74d7&imgtype=0&src=http%3A%2F%2Fppt.downhot.com%2Fd%2Ffile%2Fp%2F2013%2F10%2F28%2F511413511a314b5308e62a79942600b7.jpg' bindtap='previewImage' data-src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1523513078466&di=6c3667db4e80f3820f9b4e13468d74d7&imgtype=0&src=http%3A%2F%2Fppt.downhot.com%2Fd%2Ffile%2Fp%2F2013%2F10%2F28%2F511413511a314b5308e62a79942600b7.jpg"></image>
+      </view>
+    </view>
+  </view>
+</view>

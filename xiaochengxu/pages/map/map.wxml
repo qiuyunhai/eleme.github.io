@@ -1,0 +1,4 @@
+<view class='mapblock'>
+  <map id='myMap' longitude="{{longitude}}" latitude="{{latitude}}" scale="16" markers="{{markers}}" show-location controls="{{controls}}" bindcontroltap="controltap" style='width: 100%; height: {{Height}}px;'></map>
+</view>
+<button bindtap="moveToLocation" class="page-body-button" type="primary">移动位置</button>
